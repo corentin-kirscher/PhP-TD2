@@ -12,3 +12,7 @@ function end_page()
     echo ' </body></html>' . PHP_EOL
     ;
 }; ?>
+<?php
+function backHome (){
+    echo'<a href="Td2.php"> Home';
+}

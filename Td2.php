@@ -10,9 +10,9 @@
         <p> Petit formulaire de bienvenue kamarad</p>
         <input type="text" name="Identifiant" value="Id please"/> <br>
             <p>LE SEXE PLEASE</p>
-        <input type="radio" name="Homme"/> Homme<br>
-        <input type="radio" name="Femme"/> Femme<br>
-        <input type="radio" name="Neutre"/> Neutre<br>
+        <input type="radio" name="sexe" value="Homme"/> Homme<br>
+        <input type="radio" name="sexe" value="Femme"/> Femme<br>
+        <input type="radio" name="sexe" value="Neutre"/> Neutre<br>
         <input type="email" name="Email" /> Email<br><br>
         <input type="password" name="MDP"/> MDP<br><br>
         <input type="password" name="MDPvrfd"/> Vérification MDP<br><br>
@@ -27,7 +27,7 @@
             <option value="Vatican">Vatican</option>
             <option value="Ardèche">Ardèche</option>
             </select><br> <br>
-    <input type="checkbox" name="conditionsGénérales"/>En cliquant ici vous acceptez les <i>Conditions Générales</i><br><br>
+    <input type="checkbox" name="conditionsGénérales" required/>En cliquant ici vous acceptez les <i>Conditions Générales</i><br><br>
         <input type="submit" name="action" value="mailer"/>
 </form>
 <?php end_page() ?>

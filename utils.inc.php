@@ -14,5 +14,5 @@ function end_page()
 }; ?>
 <?php
 function backHome (){
-    echo'<a href="Td2.php"> Home';
+    echo'<a href="login.php"> Home';
 }
